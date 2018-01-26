@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/deppbrazil/deppbrazil.github.io/issues"
   },
-  "homepage": "https://github.com/deppbrazil/deppbrazil.github.io#readme"
+  "homepage": "https://github.com/deppbrazil/deppbrazil.github.io#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
 }
