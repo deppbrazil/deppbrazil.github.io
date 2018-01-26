@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: #333;
+    font-family: Verdana;
+    color: yellowgreen;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4vw;
+    line-height: 35px;
+}
+
+p {
+    font-size: 2vw;
+    line-height: 15px;
+}
