@@ -21,7 +21,13 @@ h1 {
     line-height: 35px;
 }
 
-p {
+h2 {
     font-size: 2vw;
     line-height: 15px;
+}
+
+a {
+    font-size: 3em;
+    cursor: pointer;
+    color:yellowgreen;
 }
