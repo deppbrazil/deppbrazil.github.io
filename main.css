@@ -17,17 +17,21 @@ section {
 }
 
 h1 {
-    font-size: 4vw;
+    font-size: 3.8vw;
     line-height: 35px;
-}
-
-h2 {
-    font-size: 2vw;
-    line-height: 15px;
+    margin: 10px;
 }
 
 a {
-    font-size: 3em;
+    font-size: 2.5em;
     cursor: pointer;
     color:yellowgreen;
+    margin: 5%;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
