@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
 body {
     margin: 0;
     background-color: #1b1b1b;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 255, 21);
     font-size: 10px;
     line-height: 10px;
+    font-family: 'Comfortaa', cursive;
+    
 }
 
 .container {
@@ -19,6 +23,7 @@ body {
 h1 {
     font-size: 4em;
     line-height: 45px;
+    font-family: 'Nanum Brush Script', cursive;
     margin: 10px;
     text-align: center;
 }
