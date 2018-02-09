@@ -7,7 +7,7 @@ body {
     line-height: 10px;
 }
 
-section {
+.container {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -31,9 +31,33 @@ a {
     margin: 5%;
 }
 
-div {
+.wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 11px;
+    color: rgb(107, 107, 107);
+    width: 100%;
+    text-align: center;
+
+}
+
+.wrapper-footer {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+
 }
