@@ -1,7 +1,7 @@
 @media screen and (max-width:320px) {
     h1 {
-        font-size: 4.8vw;
-        line-height: 20px;
+        font-size: 8vw;
+        line-height: 40px;
     }
 
     a {
@@ -12,8 +12,8 @@
 
 @media screen and (min-width:320px) {
     h1 {
-        font-size: 5vw;
-        line-height: 20px;
+        font-size: 7.5vw;
+        line-height: 30px;
     }
 
     a {
