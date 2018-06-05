@@ -28,6 +28,14 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 3em;
+    line-height: 35px;
+    font-family: 'Nanum Brush Script', cursive;
+    margin: 10px;
+    text-align: center;
+}
+
 a {
     font-size: 4em;
     line-height: 45px;
