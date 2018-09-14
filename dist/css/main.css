@@ -8,8 +8,31 @@ body {
     font-size: 10px;
     line-height: 10px;
     font-family: 'Comfortaa', cursive;
-    
-}
+    }
+
+.wrapper-address-card {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-left: 50px;
+    margin-top: 50px;
+    }
+
+.fa-address-card {
+    font-size: 40px;
+    position: relative;
+    -webkit-transition: 0.3s ease-in-out; // navegadores webkit, como Safari e Chrome
+    -moz-transition: 0.3s ease-in-out; // Firefox
+    -o-transition: 0.3s ease-in-out; // Opera
+    }
+
+.fa-address-card:hover {
+    opacity: 0.5;
+    }
 
 .container {
     width: 100vw;
@@ -18,7 +41,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    }
 
 h1 {
     font-size: 4em;
@@ -26,7 +49,7 @@ h1 {
     font-family: 'Nanum Brush Script', cursive;
     margin: 10px;
     text-align: center;
-}
+    }
 
 h2 {
     font-size: 3em;
@@ -34,7 +57,7 @@ h2 {
     font-family: 'Nanum Brush Script', cursive;
     margin: 10px;
     text-align: center;
-}
+    }
 
 a {
     font-size: 4em;
@@ -42,7 +65,7 @@ a {
     cursor: pointer;
     color:rgb(9, 255, 21);
     margin: 5%;
-}
+    }
 
 .wrapper {
     width: 40%;
@@ -50,7 +73,7 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+    }
 
 .container-icons {
     width: 100%;
@@ -58,7 +81,7 @@ a {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-}
+    }
 
 p {
     font-size: 0.9em;
@@ -66,12 +89,11 @@ p {
     color: rgb(107, 107, 107);
     width: 100%;
     text-align: center;
-
-}
+    }
 
 .wrapper-footer {
     width: 100%;
-}
+    }
 
 footer {
     width: 100%;
@@ -81,5 +103,4 @@ footer {
     align-items: center;
     position: absolute;
     bottom: 0;
-
-}
+    }
