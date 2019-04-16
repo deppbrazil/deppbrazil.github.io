@@ -18,7 +18,9 @@
     "url": "https://github.com/deppbrazil/deppbrazil.github.io/issues"
   },
   "homepage": "https://github.com/deppbrazil/deppbrazil.github.io#readme",
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.4.0"
+  },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.7.2"
   }
