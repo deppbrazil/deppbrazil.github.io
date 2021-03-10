@@ -4,4 +4,4 @@ function openBR() {
 
 function openUS() {
     setTimeout(function(){ location.href="https://www.deppbrazil.com"; }, 1000);
-    };
+};
